@@ -12,9 +12,9 @@ A simple full-stack user authentication and user management application built fo
 
 ## Live Links
 
-- Frontend: `https://YOUR-VERCEL-APP.vercel.app`
+- Frontend: `https://project-neon-lab.vercel.app/`
 - Backend: `https://user-crud-backend-sdcz.onrender.com`
-- GitHub: `https://github.com/YOUR_USERNAME/YOUR_REPOSITORY`
+- GitHub: `https://github.com/niro1231/Project-NeonLab`
 
 Replace the frontend and GitHub placeholders before submitting.
 
@@ -134,10 +134,10 @@ Set these Render environment variables:
 
 ```env
 NODE_ENV=production
-MONGODB_URI=<your-mongodb-connection-string>
-JWT_SECRET=<long-random-secret>
+MONGODB_URI=mongodb://pratheepanniroshan49_db_user:Niroshan1231@ac-dflmtwx-shard-00-00.suhwf2k.mongodb.net:27017,ac-dflmtwx-shard-00-01.suhwf2k.mongodb.net:27017,ac-dflmtwx-shard-00-02.suhwf2k.mongodb.net:27017/?ssl=true&replicaSet=atlas-c94y1k-shard-0&authSource=admin&appName=project-x
+JWT_SECRET=zg8Zr3GXcwtU76wwKO20MHjFxjjTLPzUaoW6VvpB08M=
 JWT_EXPIRES_IN=7d
-CORS_ORIGIN=<your-vercel-frontend-url>
+CORS_ORIGIN=https://project-neon-lab.vercel.app
 ```
 
 `CORS_ORIGIN` must exactly match the deployed Vercel origin, without a trailing slash.
