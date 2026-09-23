@@ -134,8 +134,8 @@ Set these Render environment variables:
 
 ```env
 NODE_ENV=production
-MONGODB_URI=mongodb://pratheepanniroshan49_db_user:Niroshan1231@ac-dflmtwx-shard-00-00.suhwf2k.mongodb.net:27017,ac-dflmtwx-shard-00-01.suhwf2k.mongodb.net:27017,ac-dflmtwx-shard-00-02.suhwf2k.mongodb.net:27017/?ssl=true&replicaSet=atlas-c94y1k-shard-0&authSource=admin&appName=project-x
-JWT_SECRET=zg8Zr3GXcwtU76wwKO20MHjFxjjTLPzUaoW6VvpB08M=
+MONGODB_URI=<your-mongodb-connection-string>
+JWT_SECRET=<long-random-secret>
 JWT_EXPIRES_IN=7d
 CORS_ORIGIN=https://project-neon-lab.vercel.app
 ```
