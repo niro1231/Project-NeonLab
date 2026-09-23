@@ -14,9 +14,10 @@ export function authCookieOptions(): CookieOptions {
   const isProduction = process.env.NODE_ENV === 'production';
 
   return {
-    httpOnly: true, // JavaScript in the browser cannot read it
-    secure: isProduction, // only sent over HTTPS
+    httpOnly: true,
+    secure: isProduction,
     sameSite: isProduction ? 'none' : 'lax',
+    partitioned: isProduction,
     path: '/',
     maxAge: ONE_WEEK_MS,
   };
